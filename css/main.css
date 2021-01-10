@@ -87,6 +87,261 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ---------Base Header - Footer Styles ------------ */
+
+header,
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	
+}
+/* -------Header Styles ------------- */
+
+header .content-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+header figure {
+	
+}
+
+header .header-divider {
+	
+}
+
+header nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: row wrap;
+	
+}
+
+header nav ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+header li {
+	
+}
+
+/* ---------Mobile Styles - Homepage------------ */
+
+.hero-area {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	
+}
+
+h1 {
+	
+}
+
+aside {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	
+}
+
+aside .form-description {
+	
+}
+
+aside .form {
+	
+}
+
+aside h3 {
+	
+}
+
+/* ------Features Section ------------- */
+
+.features {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	
+}
+
+.features h2 {
+	
+}
+
+.features-items {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	
+}
+
+.feaatures-items article {
+	
+}
+
+.features-items p {
+	
+}
+
+.features-item-description {
+	
+}
+
+/* -------Reviews Section --------- */
+
+.reviews {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	
+}
+
+.reviews h2 {
+	
+}
+
+.reviews article {
+	
+}
+
+.reviews h3 {
+	
+}
+.reviews p {
+	
+}
+/* ---------Mobile Styles - About Page------------ */
+
+.mission {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+
+}
+
+.misson-content {
+	
+}
+
+.misson p {
+	
+}
+
+.map {
+	
+}
+
+.map figure {
+	
+}
+
+.contact-section {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+.contact-info {
+	
+}
+
+address {
+	
+
+}
+P {
+	
+}
+
+/* ---------Mobile Styles - FAQ Page------------ */
+
+.faq {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+.faq .content-wrapper {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+}
+}
+
+/* ---------- Footer Styles ------------ */
+
+footer .content-wrapper {
+	
+}
+
+.footer-content {
+	
+}
+
+.contact {
+	
+	
+}
+
+h4 {
+	
+}
+
+address {
+	
+}
+
+footer p {
+	
+}
+
+footer .social {
+	
+}
+
+footer .social-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+footer a {
+	
+}
+
+footer .social p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.copyright {
+	
+}
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
