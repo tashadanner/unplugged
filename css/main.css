@@ -86,11 +86,57 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*General Styles*/
 
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+}
+
+ul, ol {
+	
+}
+
+a {
+	color: #e2e3ed;
+    text-decoration: none;
+}
+
+h2 {
+     font-family: 'Poppins', sans-serif;
+}
+ 
+h3, 
+h4 {
+     font-family: 'Poppins', sans-serif;
+}
+
+p {
+	
+}
+
+img {
+	
+}
+
+figure {
+	
+}
+
+address {
+	font-style: normal;
+	display: block;
+	
+}
 .content-wrapper {
 	width: 90%;
 	margin: 50px 0;
 }
+
 /* ---------Base Header - Footer Styles ------------ */
 
 header,
@@ -142,12 +188,21 @@ header nav ul {
 
 }
 
+header nav li {
+	font-size: 1.125em;
+	text-decoration: none;
+	list-style-type: none
+
+}
+
 footer {
-  flex-direction: column;
+	color: #fff;
+  	flex-direction: column;
+	text-align: center;
 }
 
 footer p {
-  margin: 0;
+  	margin: 0;
 }
 
 footer .content-wrapper {
@@ -169,10 +224,6 @@ h4 {
 	
 }
 
-address {
-	
-}
-
 footer .social {
 	
 }
@@ -191,7 +242,6 @@ footer .social-icons p {
 	
 }
 
-
 footer .copyright {
 	margin: 20px 0;
 	
@@ -207,8 +257,8 @@ footer .copyright {
 	flex-flow: row wrap;	
 }
 
-h1 {
-	
+.hero-area h1 {
+	font-size: 2.25em;
 }
 
 aside {
@@ -219,6 +269,14 @@ aside {
 	
 }
 
+aside h3 {
+	font-size: 1.125em;
+}
+
+aside p {
+	font-size: 0.875em;
+}
+
 aside .form-description {
 	
 }
@@ -227,9 +285,6 @@ aside .form {
 	
 }
 
-aside h3 {
-	
-}
 
 /* ------Features Section ------------- */
 
@@ -241,7 +296,8 @@ aside h3 {
 }
 
 .features h2 {
-	marhin-bottom: 60px;
+	font-size: 1.875em;
+	margin-bottom: 60px;
 	
 }
 
@@ -259,6 +315,8 @@ aside h3 {
 }
 
 .features p {
+	font-size: .875em;
+	line-height: 18px;
 	margin: 0;
 	
 }
@@ -277,6 +335,8 @@ aside h3 {
 }
 
 .reviews h2 {
+	font-size: 1.875em;
+	line-height: 30px;
 	margin-bottom: 40px;
 	
 }
@@ -286,11 +346,18 @@ aside h3 {
 }
 
 .reviews h3 {
+	font-size: 1.125em;
 	width: 50%;
 	margin: 20px 0;
 	
 }
 .reviews p {
+	font-size: .875em;
+	line-height: 18px;
+}
+/* -------Contact Section --------- */
+
+.contact {
 	
 }
 /* ---------Mobile Styles - About Page------------ */
@@ -359,7 +426,6 @@ aside h3 {
 .faq-content {
   margin-bottom: 50px;
 }
-
 
 
 
@@ -544,6 +610,9 @@ aside h3 {
     }
   
     /* Footer */
+	
+
+	
     footer .content-wrapper {
       width: 65%;
       margin: 100px 0;
@@ -556,7 +625,8 @@ aside h3 {
     }
   
     footer .contact {
-      margin-bottom: 0;
+		text-align: center;
+      	margin-bottom: 0;
     }
   
     footer .copyright {
@@ -662,6 +732,18 @@ aside h3 {
 	.features-items article {
 		flex-basis: 33%;
 		height: auto;
+	}
+	
+	.reviews h2 {
+		margin-bottom: 80px;
+	}
+	
+	.reviews article div {
+		width: 48%;
+	}
+	
+	.reviews figure {
+		width: 48%;
 	}
 	
 	
