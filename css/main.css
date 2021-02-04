@@ -604,6 +604,67 @@ aside h3 {
 @media only screen and (min-width: 1200px) {
 	/*Desktop styles here*/
 	
+	.content-wrapper {
+		max-width: 960px;
+	}
+	
+	header {
+		padding: 15px 0;
+	}
+	
+	header nav {
+		width: 20%;
+	}
+	
+	h3, h4 {
+		font-size: 1.875em;
+	}
+	
+	p {
+		line-height: 1.333;
+	}
+	
+	.hero-area .content-wrapper {
+		margin: 50px 0;
+	}
+	
+	.hero-area h1 {
+		font-size: 3.75em;
+		width: 80%;
+	}
+	
+	
+	aside h3 {
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+	
+	aside .content-wrapper {
+		justify-content: space-around;
+	}
+	
+	aside .content-wrapper .form {
+		width: 30%
+	}
+	
+	aside .content-wrapper .form-description {
+		width: 30%;
+	}
+	
+	.form-description p {
+		font-size: 1.125em;
+	}
+	
+	.features h2 {
+		width: 90%;
+	}
+	
+	.features-items article {
+		flex-basis: 33%;
+		height: auto;
+	}
+	
+	
 }
 
 @media print,
