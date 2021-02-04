@@ -88,6 +88,8 @@ textarea {
    ========================================================================== */
 /*General Styles*/
 
+/* Color pallette:  #527158; #5f7a66; #202322; #2a423a; text: e2e3ed; */
+
 html {
 	font-size: 16px;
 }
@@ -137,6 +139,32 @@ address {
 	margin: 50px 0;
 }
 
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /* ---------Base Header - Footer Styles ------------ */
 
 header,
@@ -145,11 +173,12 @@ footer {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
-	
+	background-color: #202322;
 }
 
 header {
 	padding: 15px 0;
+	
 }
 
 header .content-wrapper {
@@ -215,14 +244,6 @@ footer .content-wrapper {
 	
 }
 
-.contact {
-	
-	
-}
-
-h4 {
-	
-}
 
 footer .social {
 	
@@ -266,6 +287,7 @@ aside {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	background-color: #527158;
 	
 }
 
@@ -331,6 +353,8 @@ aside .form {
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;
+	background-color: #2a423a;
+	color: #e2e3ed;
 	
 }
 
@@ -367,15 +391,20 @@ aside .form {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
-
+	background-color: #527158;
+	color: #e2e3ed;
 }
 
 .misson-content {
 	
 }
 
+.mission h1 {
+	font-size: 1.875em;
+}
+
 .misson p {
-	
+	font-size: .875em;
 }
 
 .map {
@@ -391,6 +420,23 @@ aside .form {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	background-color:  #2a423a;
+	color: #e2e3ed;
+}
+
+.contact-section h1 {
+	font-size: 1.875em;
+	
+}
+
+.contact-section h2 {
+	font-size: 1.125em;
+	
+}
+
+.contact-section p {
+	font-size: .875em;
+	
 }
 
 .contact-info {
@@ -398,7 +444,11 @@ aside .form {
 }
 
 .contact-content p {
-  margin: 0;
+	margin: 0;
+}
+
+.social .social-icons {
+	background-color: #527158;
 }
 
 
@@ -408,7 +458,13 @@ aside .form {
 	display:flex;
 	justify-content: center;
 	align-items: center;
-	flex-flow: row wrap;
+	flex-flow: row wrap; 
+	background-color: #527158;
+	color: #e2e3ed;
+}
+
+.faq-content {
+	
 }
 
 .faq .content-wrapper {
@@ -420,11 +476,11 @@ aside .form {
 }
 
 .faq h2 {
-  margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
 .faq-content {
-  margin-bottom: 50px;
+	margin-bottom: 50px;
 }
 
 
