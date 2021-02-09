@@ -97,9 +97,12 @@ html {
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
+	color: #e2e3ed;
+  	text-align: left;
 }
 
 ul, ol {
+	list-style-type: none;
 	
 }
 
@@ -110,14 +113,21 @@ a {
 
 h2 {
      font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 1.875em;
 }
  
 h3, 
 h4 {
-     font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+	font-size: 1,125em;
+	font-weight: 500;
+	margin: 20px 0;
 }
 
 p {
+	font-size: .875em;
+	line-height: 1.275;
 	
 }
 
@@ -143,27 +153,6 @@ aside .form {
   margin-top: 30px;
 }
  
-input[type=text] {
-  box-sizing: border-box;
-  width: 100%;
-  color: #2a423a;
-  font-style: italic;
-  padding: 1em;
-}
- 
-input[type=button] {
-  width: 100%;
-  padding: 20px 0;
-  margin-top: 20px;
-  background-color: #2a423a;
-  font-family: 'Poppins', Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 1.125em;
-  color: #e2e3ed;
-  border: none;
-  text-align: center;
-  text-transform: uppercase;
-}
 
 /* ---------Base Header - Footer Styles ------------ */
 
@@ -198,6 +187,7 @@ header .header-divider {
 	width: 100%;
 	height: 1px;
 	margin: 10px 0 20px 0;
+	background: #3a3a3a;
 	
 }
 
@@ -207,6 +197,9 @@ header nav {
 	align-items: center;
 	flex-flow: row wrap;
 	width: 60%;
+	font-size: 1.125em;
+	font-weight: 700;
+	text-transform: uppercase;
 	
 }
 
@@ -217,15 +210,12 @@ header nav ul {
 
 }
 
-header nav li {
+header nav ul li {
 	font-size: 1.125em;
-	text-decoration: none;
-	list-style-type: none
 
 }
 
 footer {
-	color: #fff;
   	flex-direction: column;
 	text-align: center;
 }
@@ -244,10 +234,6 @@ footer .content-wrapper {
 	
 }
 
-
-footer .social {
-	
-}
 
 footer .social-icons {
 	display: flex;
@@ -280,6 +266,9 @@ footer .copyright {
 
 .hero-area h1 {
 	font-size: 2.25em;
+	font-family: 'Poppins', Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	line-height: 1.2;
 }
 
 aside {
@@ -291,6 +280,32 @@ aside {
 	
 }
 
+aside .form {
+	margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 aside h3 {
 	font-size: 1.125em;
 }
@@ -299,28 +314,18 @@ aside p {
 	font-size: 0.875em;
 }
 
-aside .form-description {
-	
-}
-
-aside .form {
-	
-}
-
 
 /* ------Features Section ------------- */
 
 .features {
 	display: flex;
 	justify-content: center;
-	flex-flow: row wrap;
-	
+	flex-flow: row wrap;	
 }
 
 .features h2 {
 	font-size: 1.875em;
 	margin-bottom: 60px;
-	
 }
 
 .features article {
@@ -340,12 +345,10 @@ aside .form {
 	font-size: .875em;
 	line-height: 18px;
 	margin: 0;
+	text-align: center;
 	
 }
 
-.features-item-description {
-	
-}
 
 /* -------Reviews Section --------- */
 
@@ -362,10 +365,6 @@ aside .form {
 	font-size: 1.875em;
 	line-height: 30px;
 	margin-bottom: 40px;
-	
-}
-
-.reviews article {
 	
 }
 
