@@ -101,8 +101,11 @@ body {
   	text-align: left;
 }
 
-ul, ol {
+ul, 
+ol {
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
 	
 }
 
@@ -112,9 +115,10 @@ a {
 }
 
 h2 {
-     font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 	font-size: 1.875em;
+	margin: 0;
 }
  
 h3, 
@@ -127,7 +131,7 @@ h4 {
 
 p {
 	font-size: .875em;
-	line-height: 1.275;
+	line-height: 1.285;
 	
 }
 
@@ -142,16 +146,12 @@ figure {
 
 address {
 	font-style: normal;
-	display: block;
 	
 }
+
 .content-wrapper {
 	width: 90%;
 	margin: 50px 0;
-}
-
-aside .form {
-  margin-top: 30px;
 }
  
 
@@ -176,7 +176,6 @@ header .content-wrapper {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
-	width: 90%;
 	margin: 0;
 }
 
@@ -240,7 +239,6 @@ footer .content-wrapper {
 	
 }
 
-
 footer .social-icons {
 	display: flex;
 	justify-content: space-around;
@@ -249,9 +247,19 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+	background-color: #527158;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	color: #e2e3ed;
+	
+}
+
+footer .social-icons p i {
+	font-size: 1.3125em;
 	
 }
 
@@ -384,21 +392,15 @@ aside p {
 }
 
 .reviews h2 {
-	font-size: 1.875em;
-	line-height: 30px;
+	line-height: 1;
 	margin-bottom: 40px;
 	
 }
 
 .reviews h3 {
-	font-size: 1.125em;
-	width: 50%;
+	width: 55%;
 	margin: 20px 0;
 	
-}
-.reviews p {
-	font-size: .875em;
-	line-height: 18px;
 }
 /* -------Contact Section --------- */
 
@@ -709,7 +711,7 @@ aside p {
 	}
 	
 	.reviews article figure {
-		width: 50%;
+		width: 49%;
 	}
 	
 	.reviews h3 {
@@ -736,6 +738,7 @@ aside p {
       	margin-bottom: 0;
     }
 	
+	
 	footer h4 {
 		font-size: 1.5em;
 		margin-bottom: 40px;
@@ -743,6 +746,11 @@ aside p {
 	
 	footer p {
 		line-height: 1.285;
+	}
+	
+	footer .social-icons {
+		width: 12.5em;
+		justify-content: space-between;
 	}
   
     footer .copyright {
