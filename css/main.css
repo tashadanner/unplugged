@@ -686,6 +686,7 @@ aside p {
     }
   
     /* Reviews */
+	
     .reviews article {
       display: flex;
       justify-content: space-between;
@@ -699,21 +700,6 @@ aside p {
       width: 49%;
 	}
 	
-		/* Features */
-    .features article {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-flow: column wrap;
-      flex-basis: 50%;
-    }
-    
-    .features .features-item-description {
-      width: 50%;
-    }
-  
-    /* Reviews */
-	
 	.reviews article figure {
 		width: 50%;
 	}
@@ -722,15 +708,6 @@ aside p {
 		width: 75%;
 		margin: 0;
 	}
-	
-    .reviews article {
-      display: flex;
-      justify-content: space-between;
-    }
-  
-    .reviews article div {
-      width: 49%;
-    }
   
     /* Footer */
 		
@@ -776,6 +753,10 @@ aside p {
     .mission-content p {
       width: 45%;
     }
+	
+	.map figure {
+		padding-bottom: 45.5%;
+	}
   
     .contact-section .content-wrapper h2 {
       width: 80%;
@@ -897,6 +878,10 @@ aside p {
 		width: 95%;
 		font-size: 3em;
 		
+	}
+	
+	.map figure {
+		padding-bottom: 37.5%;
 	}
 	
 	.contact-content h4 {
