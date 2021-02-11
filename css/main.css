@@ -263,6 +263,7 @@ footer .copyright {
 
 /* ---------Mobile Styles - Homepage------------ */
 
+/*Hero Area*/
 
 .hero-area {
 	display: flex;
@@ -280,6 +281,8 @@ footer .copyright {
 	font-weight: 500;
 	line-height: 1.2;
 }
+
+/*---------------------Aside-------------------------*/
 
 aside {
 	display: flex;
@@ -325,7 +328,7 @@ aside p {
 }
 
 
-/* ------Features Section ------------- */
+/* --------------Features Section ------------- */
 
 .features {
 	display: flex;
@@ -361,6 +364,11 @@ aside p {
 	margin: 0;
 	text-align: center;
 	
+}
+
+.features i {
+	font-size: 3.75em;
+    margin-bottom: 40px;
 }
 
 
@@ -486,10 +494,6 @@ aside p {
 	color: #e2e3ed;
 }
 
-.faq-content {
-	
-}
-
 .faq .content-wrapper {
 	display:flex;
 	justify-content: center;
@@ -500,10 +504,14 @@ aside p {
 
 .faq h2 {
 	margin-bottom: 40px;
+	line-height: 1;
 }
 
 .faq-content {
 	margin-bottom: 50px;
+}
+.faq-content h4 {
+	line-height: 1.333;
 }
 
 
