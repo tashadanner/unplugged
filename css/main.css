@@ -341,7 +341,6 @@ aside p {
 .features {
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	flex-flow: row wrap;
 	background-image: url('../img/rawpixel-800820-unsplash1.jpg');
 	background-size: cover;
@@ -351,9 +350,14 @@ aside p {
 .features h2 {
 	font-size: 1.875em;
 	margin-bottom: 60px;
+	text-align: center;
 }
 
 .features article {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
 	width: 63%;
 	margin: 30px 0;
 }
@@ -366,17 +370,15 @@ aside p {
 	
 }
 
-.features p {
-	font-size: .875em;
-	line-height: 18px;
-	margin: 0;
-	text-align: center;
-	
-}
-
 .features i {
 	font-size: 3.75em;
     margin-bottom: 40px;
+
+}
+.features p {
+	margin: 0;
+	text-align: center;
+	
 }
 
 
@@ -402,11 +404,7 @@ aside p {
 	margin: 20px 0;
 	
 }
-/* -------Contact Section --------- */
 
-.contact {
-	
-}
 /* ---------Mobile Styles - About Page------------ */
 
 .mission {
@@ -480,9 +478,6 @@ aside p {
 	margin: 0;
 }
 
-.social .social-icons {
-	background-color: #527158;
-}
 
 
 /* ---------Mobile Styles - FAQ Page------------ */
@@ -493,7 +488,6 @@ aside p {
 	align-items: center;
 	flex-flow: row wrap; 
 	background-color: #527158;
-	color: #e2e3ed;
 }
 
 .faq .content-wrapper {
@@ -609,7 +603,7 @@ aside p {
 
 @media only screen and (min-width: 768px) {
   	.content-wrapper {
-      max-width: 640px;
+      
       margin: 100px 0;
     } 
 	
@@ -791,17 +785,19 @@ aside p {
   /*******FAQ Page **********/
   
     .faq .content-wrapper {
-      justify-content: space-between;
+      	justify-content: space-between;
+		margin: 50px 0 0 0;
+    }
+	
+	.faq h2 {
+      width: 100%;
     }
   
     .faq-content {
       flex-basis: 45%;
     }
   
-    .faq h2 {
-      width: 100%;
-    }
-	
+  
 	.faq h4,
 	.faq p {
 		font-size: .875em;
@@ -818,6 +814,10 @@ aside p {
 	
 	header {
 		padding: 15px 0;
+	}
+	
+	header figure {
+		width: 30%;
 	}
 	
 	
