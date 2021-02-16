@@ -631,14 +631,17 @@ aside p {
 	
 	header figure {
 		width: 30%;
+		margin-left: 62px;
 	}
   
     header nav {
-      width: 20%;
+      	width: 20%;
+		margin-right: 62px;
     }
   
     header nav ul {
-      justify-content: space-between;
+      	justify-content: space-between;
+		
     }
   
     .header-divider {
