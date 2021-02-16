@@ -124,20 +124,18 @@ h2 {
 h3, 
 h4 {
     font-family: 'Poppins', sans-serif;
-	font-size: 1,125em;
+	font-size: 1.125em;
 	font-weight: 500;
 	margin: 20px 0;
 }
 
 p {
 	font-size: .875em;
-	line-height: 1.285;
-	
+	line-height: 1.285;	
 }
 
 img {
-	width: 100%;
-	
+	width: 100%;	
 }
 
 figure {
@@ -234,7 +232,7 @@ footer .content-wrapper {
     margin: 50px 0;
 }
 
-.footer-contact {
+.footer .contact {
 	margin-bottom: 50px;
 	
 }
@@ -327,13 +325,6 @@ input[type=button] {
   text-transform: uppercase;
 }
 
-aside h3 {
-	font-size: 1.125em;
-}
-
-aside p {
-	font-size: 0.875em;
-}
 
 
 /* --------------Features Section ------------- */
@@ -470,10 +461,6 @@ aside p {
 	
 }
 
-.contact-info {
-	
-}
-
 .contact-content p {
 	margin: 0;
 }
@@ -603,7 +590,7 @@ aside p {
 
 @media only screen and (min-width: 768px) {
   	.content-wrapper {
-      
+      max-width: 640px;
       margin: 100px 0;
     } 
 	
@@ -691,6 +678,10 @@ aside p {
     .features .features-item-description {
       width: 62%;
     }
+	
+	.features i {
+		margin-bottom: 30px;
+	}
   
     /* Reviews */
 	
@@ -815,19 +806,16 @@ aside p {
 @media only screen and (min-width: 1200px) {
 	/*Desktop styles here*/
 	
-	.content-wrapper {
-		max-width: 960px;
-	}
 	
 	header {
 		padding: 15px 0;
 	}
 	
-	header figure {
-		width: 30%;
+	.content-wrapper {
+		max-width: 960px;
 	}
-	
-	
+		
+
 	h2 {
 		font-size: 2.25em;
 	}
@@ -849,14 +837,14 @@ aside p {
 		font-size: 3.75em;
 		width: 80%;
 	}
-		
-	aside h3 {
-		margin-top: 0;
-		margin-bottom: 10px;
-	}
 	
 	aside .content-wrapper {
 		justify-content: space-around;
+	}
+	
+	aside h3 {
+		margin-top: 0;
+		margin-bottom: 10px;
 	}
 	
 	aside .content-wrapper .form {
@@ -881,7 +869,7 @@ aside p {
 	}
 	
 	.reviews h2 {
-		margin-bottom: 50px;
+		padding-bottom: 50px;
 	}
 	
 	.reviews article div {
