@@ -609,7 +609,7 @@ aside p {
 	
 	h2 {
 		font-size: 2.25em;
-		line-height: 1.333;
+    	line-height: 1.333;
 	}
 	
 	h3 {
@@ -772,7 +772,9 @@ aside p {
 	}
   
     .contact-section .content-wrapper h2 {
-      width: 80%;
+      	width: 80%;
+		font-size: 2.25em;
+    	line-height: 1.333;
     }
   
     .contact-content {
@@ -793,7 +795,9 @@ aside p {
     }
 	
 	.faq h2 {
-      width: 100%;
+      	width: 100%;
+		font-size: 2.25em;
+    	line-height: 1.333;
     }
   
     .faq-content {
